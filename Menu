@@ -1,0 +1,115 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+getgenv().SecureMode = true
+
+local Window = Rayfield:CreateWindow({
+	Name = "Blox Fruits Menu",
+	LoadingTitle = "Blox Fruits Menu",
+})
+local Tab = Window:CreateTab("Free GUI's")
+local Section = Tab:CreateSection("Blox Fruits Free GUI's")
+local TabPaid = Window:CreateTab("Paid GUI's")
+local SectionPaid = TabPaid:CreateSection("Blox Fruits Paid GUI's")
+local TabUtil = Window:CreateTab("Utility")
+local SectionUtil = TabUtil:CreateSection("Blox Fruits Utility")
+
+local Button = Tab:CreateButton({
+	Name = "Hoho Hub V3 (NEW)",
+	Callback = function()
+		_G.HohoVersion = "v3"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Hoho Hub V2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HohoV2/main/OldScriptLoad"))()
+	end,
+})
+
+local Button = TabUtil:CreateButton({
+	Name = "NEW - Fruit Finder & Hopper",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/BetaFruitFinder"))()
+	end,
+})
+local Button = TabUtil:CreateButton({
+	Name = "NEW - Chest Hopper (Infinite Money)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+	end,
+})
+local Button = Tab:CreateButton({
+	Name = "Mukuro",
+	Callback = function()
+		_G.Fix_Electron = true
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+	end,
+})
+local Button = TabPaid:CreateButton({
+	Name = "Main Rewrite",
+	Callback = function()
+if script_key then
+    return
+end
+getgenv().Team = "Pirates"
+script_key = "klLQWVnWoRHwZpEOuCLJXcvtXQEItQEG"
+repeat wait()
+until game:IsLoaded()
+delay(DelayTime or 300,function()
+    local CG = game:GetService("CoreGui")
+    if not CG:FindFirstChild("W-azure") then
+       game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+    end
+end)
+wait(2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/607f2cd3aa6f0808c9226aacb9bbceb0.lua"))()
+	end,
+})
+local Button = TabPaid:CreateButton({
+	Name = "Misc",
+	Callback = function()
+--Please Read All In Misc Thread Before using because there are a lot important stuffs
+if script_key then
+    return
+end
+--Do not execute any scripts before running the script
+--Put Your Key Between "" at the _G.wl_key
+script_key = "klLQWVnWoRHwZpEOuCLJXcvtXQEItQEG"
+repeat wait()
+until game:IsLoaded()
+wait(2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2d63ce32ac906f0b9b1bb8d84d32c60f.lua"))()
+	end,
+})
+local Button = TabPaid:CreateButton({
+	Name = "MainV2",
+	Callback = function()
+getgenv().Team = "Pirates"--Marines
+script_key = "klLQWVnWoRHwZpEOuCLJXcvtXQEItQEG"
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6b36cec473a0dd48eab35b8272b2384.lua"))()
+	end,
+})
+local Button = TabPaid:CreateButton({
+	Name = "Kaitun",
+	Callback = function()
+if script_key then
+    return
+end
+getgenv().Team = "Pirates"--Marines
+--Put Your Key Between ""
+script_key = "klLQWVnWoRHwZpEOuCLJXcvtXQEItQEG"
+DelayTime = 300
+repeat wait()
+until game:IsLoaded()
+delay(DelayTime or 300,function()
+    local CG = game:GetService("CoreGui")
+    if not CG:FindFirstChild("W-azure") then
+        game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+    end
+end)
+wait(2)
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/672c831bbd091d87a04b5fe7dec3c49c.lua"))()
+	end,
+})
+
