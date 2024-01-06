@@ -8,7 +8,7 @@ getgenv().FpsBoost = false
 getgenv().Setting = {
     ["Team"] = "Pirates", --Marines
     ["Webhook"] = {
-        ["Url"] = "https://discord.com/api/webhooks/1192826520650137640/ecYGUgHmWmYQ3czYBQ22-QMpECZ4iFjn7Lbrj5zGjzp9oxDjb8yYbPp5lUfJuul0TSIX",
+        ["Url"] = "https://discord.com/api/webhooks/1164090401829949480/hi0AOqf-gHtrsPjhZ72aZ03Kuyw14hIOj6xpx4fY2OUMlLMIbIVkfrBIQG2necqzDiIJ",
         ["Enabled"] = true,
         ["Embed"] = true,
         ["StoredFruit"] = true,
@@ -121,7 +121,7 @@ getgenv().Setting = {
     },
     ["Misc"] = {
         ["AutoBuyRandomandStoreFruit"] = true,
-        ["AutoBuySurprise"] = false,
+        ["AutoBuySurprise"] = true,
     },
     ["Invisible"] = true, -- Self Explain
     ["IgnoreFriends"] = false, --Server Hop When Your friends in your server
