@@ -1,19 +1,5 @@
-getgenv().config = {
-    placetoFish = "Fishing", -- place to fish "Fishing" or "AdvancedFishing"
-    autoFishing = true, -- fish off execution or not
-    autoPresents = true, -- collect presents
-    updateStats = true, -- update personal stats
-    invisWater = true, --invisible water :-)
-    renderer = false,
-    
-    mailUsers = {
-        "Username1", -- change to your usernames for mailing
-        "Username2", -- YOU CAN PUT AS MANY ACCOUNTS AS YOU WANT
-        "Username3",
-    },
-    mailSetting = "Magic Shard", -- can be "Huge Poseidon Corgi", "Diamonds", "Magic Shard", "Charm Stone"
-    mailAmount = 1, -- amount to mail, less than 1000.  For GEMS it will send all except 100k
-    mailTimer = 900, -- how often you want to send mail if you use automatic
-    mailAuto = false, -- true/false
-}
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2a7ace7d651c472352ea0589cc6c570e.lua"))()
+----auto rank (LV1-LV6)
+_G.Autoranknovip = true --- true/false, không cần gamepass vip(no need gamepass vip)
+_G.Autorankvip = false --- true/false, cần gamepass vip(need gamepass vip)
+_G.Automap = true  --- true/false
+loadstring(game:HttpGet("https://www.hngaming.tk/hngamingpetsim99.txt"))()
