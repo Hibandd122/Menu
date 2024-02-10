@@ -1,7 +1,7 @@
 getgenv().SpamSkill = false
 getgenv().AutoUseRaceV3 = true
 getgenv().AutoUseRacev4 = true
-getgenv().SpamSkillOnRaceV4 = true
+getgenv().SpamSkillOnRaceV4 = false
 getgenv().Invisible = true
 getgenv().InCombatNoReset = false
 getgenv().Team = "Pirates" -- Marines
@@ -25,8 +25,8 @@ getgenv().TweenSpeed = 349 -- 350 max or Get Tp Back
         },
         ["Sword"] = { ["Enable"] = true, ["Delay"] = 1,
             ["Skills"] = {
-                ["Z"] = {["Enable"] = true,  ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
+                ["Z"] = {["Enable"] = true,  ["HoldTime"] = 1,["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
             },
         },
         ["Gun"] = {["Enable"] = false, ["Delay"] = 2,
