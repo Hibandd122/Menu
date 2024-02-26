@@ -31,8 +31,8 @@ getgenv().TweenSpeed = 349 -- 350 max or Get Tp Back
         },
         ["Gun"] = {["Enable"] = true, ["Delay"] = 2,
             ["Skills"] = {
-                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,},
-                ["X"] = {["Enable"] = true,["HoldTime"] = 0.5,["TimeToNextSkill"] = 0,
+                ["Z"] = {["Enable"] = true,["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = true,["HoldTime"] = 0,["TimeToNextSkill"] = 0,
                 },
             },
         }
