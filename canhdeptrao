@@ -148,7 +148,8 @@ getgenv().Setting = {
                     ["HoldTime"] = 1.5,
                     ["TimeToNextSkill"] = 0,
                 },
-            [ "Z"] = {
+
+                [ "Z"] = {
                     ["Enable"] = true,
                     ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
@@ -182,7 +183,7 @@ getgenv().Setting = {
                     ["TimeToNextSkill"] = 0,
                 },
                 ["V"] = {
-                    ["Enable"] = flase,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                     ["TimeToNextSkill"] = 0,
                 },
