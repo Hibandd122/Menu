@@ -1,8 +1,8 @@
 getgenv().SpamSkill = false
-getgenv().AutoUseRaceV3 = true
+getgenv().AutoUseRaceV3 = false
 getgenv().AutoUseRacev4 = true
 getgenv().SpamSkillOnRaceV4 = false
-getgenv().Invisible = true
+getgenv().Invisible = false
 getgenv().InCombatNoReset = true
 getgenv().Team = "Pirates" -- Marines
 getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
@@ -14,13 +14,13 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
             ["C"] = {["Enable"] = true,["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
             },
         },
-        ["Blox Fruit"] = {["Enable"] = false, ["Delay"] = 4,
+        ["Blox Fruit"] = {["Enable"] = true, ["Delay"] = 2,
             ["Skills"] = {
-                ["Z"] = {["Enable"] = true, ["HoldTime"] = 0.1, ["TimeToNextSkill"] = 0,},
-                ["X"] = { ["Enable"] = true, ["HoldTime"] = 0.1, ["TimeToNextSkill"] = 0,},
-                ["C"] = { ["Enable"] = true, ["HoldTime"] = 0.1,["TimeToNextSkill"] = 0, },
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 2, ["TimeToNextSkill"] = 0,},
+                ["X"] = { ["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
+                ["C"] = { ["Enable"] = true, ["HoldTime"] = 0,["TimeToNextSkill"] = 0, },
                 ["V"] = { ["Enable"] = false, ["HoldTime"] = 0,["TimeToNextSkill"] = 0,},
-                ["F"] = {["Enable"] = false,["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
+                ["F"] = {["Enable"] = true,["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
             },
         },
         ["Sword"] = { ["Enable"] = false, ["Delay"] = 1,
@@ -29,7 +29,7 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
                 ["X"] = {["Enable"] = true, ["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
             },
         },
-        ["Gun"] = {["Enable"] = true, ["Delay"] = 2,
+        ["Gun"] = {["Enable"] = false, ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true,["HoldTime"] = 0.15,["TimeToNextSkill"] = 0,},
                 ["X"] = {["Enable"] = true,["HoldTime"] = 0.15,["TimeToNextSkill"] = 0,
