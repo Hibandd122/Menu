@@ -2,7 +2,7 @@ getgenv().SpamSkill = false
 getgenv().AutoUseRaceV3 = false
 getgenv().AutoUseRacev4 = true
 getgenv().SpamSkillOnRaceV4 = false
-getgenv().Invisible = false
+getgenv().Invisible = true
 getgenv().InCombatNoReset = true
 getgenv().Team = "Pirates" -- Marines
 getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
@@ -14,7 +14,7 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
             ["C"] = {["Enable"] = true,["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
             },
         },
-        ["Blox Fruit"] = {["Enable"] = true, ["Delay"] = 2,
+        ["Blox Fruit"] = {["Enable"] = false, ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true, ["HoldTime"] = 2, ["TimeToNextSkill"] = 0,},
                 ["X"] = { ["Enable"] = true, ["HoldTime"] = 0, ["TimeToNextSkill"] = 0,},
