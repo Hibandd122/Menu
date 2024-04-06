@@ -7,11 +7,11 @@ getgenv().InCombatNoReset = true
 getgenv().Team = "Pirates" -- Marines
 getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
  getgenv().Setting = { -- Select Weapon, Self Explain
-        ["Melee"] = {["Enable"] = true,["Delay"] = 3,
+        ["Melee"] = {["Enable"] = true,["Delay"] = 2,
           ["Skills"] = {
-            ["Z"] = {["Enable"] = true,["HoldTime"] = 0.11,["TimeToNextSkill"] = 0,},
-            [ "X"] = {["Enable"] = true,["HoldTime"] = 0.14, ["TimeToNextSkill"] = 0,},
-            ["C"] = {["Enable"] = true,["HoldTime"] = 2, ["TimeToNextSkill"] = 0,},
+            ["Z"] = {["Enable"] = true,["HoldTime"] = 2.5,["TimeToNextSkill"] = 0,},
+            [ "X"] = {["Enable"] = true,["HoldTime"] = 2, ["TimeToNextSkill"] = 0,},
+            ["C"] = {["Enable"] = true,["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
             },
         },
         ["Blox Fruit"] = {["Enable"] = false, ["Delay"] = 2,
@@ -29,7 +29,7 @@ getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
                 ["X"] = {["Enable"] = true, ["HoldTime"] = 1, ["TimeToNextSkill"] = 0,},
             },
         },
-        ["Gun"] = {["Enable"] = true, ["Delay"] = 2,
+        ["Gun"] = {["Enable"] = false, ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true,["HoldTime"] = 0.15,["TimeToNextSkill"] = 0,},
                 ["X"] = {["Enable"] = true,["HoldTime"] = 0.13,["TimeToNextSkill"] = 0,
