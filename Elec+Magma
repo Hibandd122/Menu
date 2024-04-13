@@ -5,7 +5,7 @@ getgenv().SpamSkillOnRaceV4 = false
 getgenv().Invisible = true
 getgenv().InCombatNoReset = true
 getgenv().Team = "Pirates" -- Marines
-getgenv().TweenSpeed = 350 -- 350 max or Get Tp Back
+getgenv().TweenSpeed = 325 -- 350 max or Get Tp Back
  getgenv().Setting = { -- Select Weapon, Self Explain
         ["Melee"] = {["Enable"] = true,["Delay"] = 3,
           ["Skills"] = {
