@@ -1,5 +1,0 @@
-----auto rank (LV1-LV6)
-_G.Autoranknovip = true --- true/false, không cần gamepass vip(no need gamepass vip)
-_G.Autorankvip = false --- true/false, cần gamepass vip(need gamepass vip)
-_G.Automap = true  --- true/false
-loadstring(game:HttpGet("https://www.hngaming.tk/hngamingpetsim99.txt"))()
