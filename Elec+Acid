@@ -10,7 +10,7 @@ getgenv().TweenSpeed = 325 -- 350 max or Get Tp Back
  getgenv().Setting = { -- Select Weapon, Self Explain
         ["Melee"] = {["Enable"] = true,["Delay"] = 3,
           ["Skills"] = {
-            ["Z"] = {["Enable"] = true,["HoldTime"] = 1,["TimeToNextSkill"] = 0.5,},
+            ["Z"] = {["Enable"] = true,["HoldTime"] = 1.2,["TimeToNextSkill"] = 0.5,},
             [ "X"] = {["Enable"] = true,["HoldTime"] = 0.14, ["TimeToNextSkill"] = 0.5,},
             ["C"] = {["Enable"] = true,["HoldTime"] = 0.4, ["TimeToNextSkill"] = 0.5,},
             },
