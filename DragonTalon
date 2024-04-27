@@ -1,0 +1,40 @@
+getgenv().SpamSkill = false
+getgenv().AutoUseRaceV3 = true
+getgenv().AutoUseRacev4 = true
+getgenv().SpamSkillOnRaceV4 = false
+getgenv().Invisible = true
+getgenv().InCombatNoReset = true
+getgenv().Team = "Pirates" -- Marines
+getgenv().TweenSpeed = 325 -- 350 max or Get Tp Back
+ getgenv().Setting = { -- Select Weapon, Self Explain
+        ["Melee"] = {["Enable"] = true,["Delay"] = 3,
+          ["Skills"] = {
+            ["Z"] = {["Enable"] = true,["HoldTime"] = 0.11,["TimeToNextSkill"] = 0,},
+            [ "X"] = {["Enable"] = true,["HoldTime"] = 0.14, ["TimeToNextSkill"] = 0,},
+            ["C"] = {["Enable"] = true,["HoldTime"] = 0.8, ["TimeToNextSkill"] = 0,},
+            },
+        },
+        ["Blox Fruit"] = {["Enable"] = false, ["Delay"] = 4,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true, ["HoldTime"] = 2, ["TimeToNextSkill"] = 0.5,},
+                ["X"] = { ["Enable"] = true, ["HoldTime"] = 0.3, ["TimeToNextSkill"] = 0.5,},
+                ["C"] = { ["Enable"] = true, ["HoldTime"] = 0.3,["TimeToNextSkill"] = 0.5, },
+                ["V"] = { ["Enable"] = true, ["HoldTime"] = 0.3,["TimeToNextSkill"] = 0.5,},
+                ["F"] = {["Enable"] = true,["HoldTime"] = 0, ["TimeToNextSkill"] = 0.5,},
+            },
+        },
+        ["Sword"] = { ["Enable"] = false, ["Delay"] = 0.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true,  ["HoldTime"] = 0.1,["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0.2, ["TimeToNextSkill"] = 0,},
+            },
+        },
+        ["Gun"] = {["Enable"] = false, ["Delay"] = 0.5,
+            ["Skills"] = {
+                ["Z"] = {["Enable"] = true,["HoldTime"] = 0.15,["TimeToNextSkill"] = 0,},
+                ["X"] = {["Enable"] = true,["HoldTime"] = 0.13,["TimeToNextSkill"] = 0,
+                },
+            },
+        }
+    }
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/vinhuchi/temp-repos/main/FreeAutoBounty.lua'))()
